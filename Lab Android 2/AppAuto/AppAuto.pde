@@ -71,6 +71,9 @@ void draw(){
 void onAccelerometerEvent(float x, float y, float z, long time, int accuracy)
 {
 accelerometer.set(x, y, z);
+
+  /*OscMessage m = new OscMessage("AccelerometerData");
+  m.add();*/
 }
 
 void onMagneticFieldEvent(float x, float y, float z, long time, int accuracy){
@@ -85,7 +88,8 @@ void onProximityEvent(float v){  // la distancia entre la pantalla del dispositi
   proximity = v;
 }
 void mousePressed(){
-  println("Alguien entro al auto");
+  //println("Alguien entro al auto");
+  
 }
 
 /*Cuando una actualización de la localización ocurra, este metodo recupera los datos
