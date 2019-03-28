@@ -1,4 +1,12 @@
 import ketai.sensors.*;
+
+import android.os.Bundle;  // 1
+import android.content.Intent;  // 2
+
+import ketai.net.bluetooth.*;
+import ketai.ui.*;
+import ketai.net.*;
+import oscP5.*;
 KetaiSensor sensor;
 PVector magneticField, accelerometer;
 float light, proximity;
@@ -6,6 +14,10 @@ KetaiLocation location; // Para las actualizaciones de la localización
 double longitude, latitude, altitude;
 float accuracy;
 float accelerometerX, accelerometerY, accelerometerZ;
+KetaiBluetooth bt;  // 3
+
+KetaiList connectionList;  // 4
+boolean isConfiguring = true;
 
 void setup(){
   sensor = new KetaiSensor(this);
@@ -17,6 +29,7 @@ void setup(){
   orientation(PORTRAIT);
   textAlign(CENTER, CENTER);
   textSize(50);
+  bt.start(); // 6
 }
 
 void draw(){
@@ -54,26 +67,6 @@ void draw(){
 
 }
 
-/* para inciso a)
-Actividad en el sensor de aceleración nos indica que el auto puede haber 
-sido alcanzado por otro carro estando estacionado, o que podrían 
-estarse robando las copas del auto  void onAccelerometerEvent
-
-y para inciso b)
-Actividad en el sensor de aceleración y 
-en el GPS indica que se están robando el auto
-void onAccelerometerEvent y void onLocationEvent
-
-Para inciso c)
-Actividad en el sensor de proximidad 
-indica que alguien está asomandose por las ventanas del auto
-para inciso d) 
- Actividad en el sensor touch indica que alguien esta 
- intentando abrir/romper los cristales del auto
-para inciso e)
-Actividad en el sensor touch y en el sensor
-de luz indica que alguien entro al auto
-*/
 
 void onAccelerometerEvent(float x, float y, float z, long time, int accuracy)
 {
