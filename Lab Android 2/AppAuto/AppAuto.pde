@@ -5,8 +5,6 @@ float light, proximity;
 KetaiLocation location; // Para las actualizaciones de la localización
 double longitude, latitude, altitude;
 float accuracy;
-
-KetaiSensor sensor;
 float accelerometerX, accelerometerY, accelerometerZ;
 
 void setup(){
@@ -18,7 +16,7 @@ void setup(){
   location = new KetaiLocation(this);  
   orientation(PORTRAIT);
   textAlign(CENTER, CENTER);
-  textSize(60);
+  textSize(50);
 }
 
 void draw(){
@@ -30,6 +28,7 @@ void draw(){
           "x: " + nfp(accelerometer.x, 2, 3) + "\n" +
           "y: " + nfp(accelerometer.y, 2, 3) + "\n" +
           "z: " + nfp(accelerometer.z, 2, 3) + "\n" +
+          "Campo magnetico: \n" + 
           "x: " + nfp(magneticField.x, 1, 2) + "\n" +
           "y: " + nfp(magneticField.y, 1, 2) + "\n" +
           "z: " + nfp(magneticField.z, 1, 2) + "\n" +
@@ -45,6 +44,7 @@ void draw(){
           "x: " + nfp(accelerometer.x, 2, 3) + "\n" +
           "y: " + nfp(accelerometer.y, 2, 3) + "\n" +
           "z: " + nfp(accelerometer.z, 2, 3) + "\n" +
+          "Campo magnetico: \n" + 
           "x: " + nfp(magneticField.x, 1, 2) + "\n" +
           "y: " + nfp(magneticField.y, 1, 2) + "\n" +
           "z: " + nfp(magneticField.z, 1, 2) + "\n" +
