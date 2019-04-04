@@ -42,17 +42,10 @@ void setup() {
   m.setScaleLabels(scaleLabels);
 
   // Change the title from the default "Voltage" to a more meaningful label.
-  m.setTitle("Rainbow");
+  m.setTitle("Sensor Values");
 
   // Display the digital meter value.
   m.setDisplayDigitalMeterValue(true);
-  
-  
-  //Para ver si funciona el local host
-  GetRequest get = new GetRequest("http://localhost:9090/fakesensors/sensor?param=3");
-  get.send();
-  println("Reponse Content: " + get.getContent());
-  println("Reponse Content-Length Header: " + get.getHeader("Content-Length"));
 }
 
 void draw() {
@@ -60,7 +53,12 @@ void draw() {
   // Simulate sensor data.
   int newSensorReading;
   // Force inputSignalOutOfRange of 0 - 255.
-  newSensorReading = (int)random(-10, 265);
+  
+  GetRequest get = new GetRequest("http://localhost:9090/fakesensors/sensor?param=1");
+  get.send();
+  String[] sensor_value = match(get.getContent(), "<Sensor_Value>(.*?)</Sensor_Value>");
+  float valor = float(sensor_value[1]) * 180;
+  newSensorReading = (int)valor;
  
   // Display the new sensor value.
   m.updateMeter(newSensorReading);
