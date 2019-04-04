@@ -1,0 +1,8 @@
+***** Android Lab apache sensors*****
+
+-Grupo: 6CC2
+-Alumnos: 
+	-José Francisco Loya Tena – 310996
+	-Jorge Luis Pizaña Martínez - 311049
+-Maestro: D.C. Fernando Martínez Reyes
+-Fecha de entrega: 08/04/2019
