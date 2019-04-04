@@ -13,6 +13,7 @@
  */
 
 import meter.*;
+import http.requests.*;
 
 Meter m;
 
@@ -45,6 +46,13 @@ void setup() {
 
   // Display the digital meter value.
   m.setDisplayDigitalMeterValue(true);
+  
+  
+  //Para ver si funciona el local host
+  GetRequest get = new GetRequest("http://localhost:9090/fakesensors/sensor?param=3");
+  get.send();
+  println("Reponse Content: " + get.getContent());
+  println("Reponse Content-Length Header: " + get.getHeader("Content-Length"));
 }
 
 void draw() {
