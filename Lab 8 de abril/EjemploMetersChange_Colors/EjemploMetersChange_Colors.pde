@@ -1,18 +1,4 @@
-/* //<>// //<>//
- Meter as a partial circle.
- Change a few colors.
- Note that the circle starts at 90.0 degrees (6:00 OClock) and
- moves clockwise. The scale labels have to be in this order.
-
-  Non-Hardware example.
- 
- created April 19, 2017
- by Bill (Papa) Kujawa.
- 
- This example code is in the public domain.
- */
-
-import meter.*;
+import meter.*; //<>//
 import http.requests.*;
 
 Meter m;
