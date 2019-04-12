@@ -16,6 +16,13 @@ ArrayList devicesDiscovered = new ArrayList(); //store in array the discovered d
 boolean rectOver = false;
 int rec = 0;
 
+int r1 = 255;
+int g1 = 0;
+int b1 = 0;
+int r2 = 165;
+int g2 = 8;
+int b2 = 27;
+
 // The following code is required to enable bluetooth at startup.
 void onCreate(Bundle savedInstanceState)
 {
@@ -57,14 +64,14 @@ isConfiguring = false;                         //stop selecting device
 
 else
 {
-  color a = color(255,0,0);                      //the color for each button of the interface
-  color b = color(255,0,0);
-  color c = color(255,0,0);
-  color d = color(255,0,0);
-  color e = color(165,8,27);
-  color f = color(165,8,27);
-  color g = color(165,8,27);
-  color h = color(165,8,27);
+  color a = color(r1,g1,b1);                      //the color for each button of the interface
+  color b = color(r1,g1,b1);
+  color c = color(r1,g1,b1);
+  color d = color(r1,g1,b1);
+  color e = color(r2,g2,b2);
+  color f = color(r2,g2,b2);
+  color g = color(r2,g2,b2);
+  color h = color(r2,g2,b2);
   color i = color(18,21,121);
   color j = color(255,255,255);
   color k = color(255,255,255);
@@ -299,5 +306,12 @@ void onBluetoothDataEvent(String who, byte[] data)
   info += new String(data);
   if(info.length() > 150)             //clean the words on screen if string to long
   info = "";
+  r1 = int(random(255));  //para cambio de colores
+  g1 = int(random(255));
+  b1 = int(random(255));
+  r2 = int(random(255));
+  g2 = int(random(255));
+  b2 = int(random(255));
+
 }
 //END of Android processing coding
