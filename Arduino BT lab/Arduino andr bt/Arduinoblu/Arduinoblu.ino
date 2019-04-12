@@ -3,8 +3,8 @@
 
 #include <SoftwareSerial.h>
 #define BAUD 9600
-#define RX 10
-#define TX 11
+#define RX 0
+#define TX 1
 
 SoftwareSerial bt(RX, TX);
 
@@ -14,6 +14,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(BAUD);
   bt.begin(BAUD);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
@@ -26,6 +27,9 @@ void loop() {
 
   if (hasReceived){
     Serial.println(x);
+    digitalWrite(LED_BUILTIN, HIGH);
     hasReceived = false;
+    delay(500);
+    digitalWrite(LED_BUILTIN, LOW);
   }
 }
