@@ -5,7 +5,7 @@ KetaiSQLite db;
 KetaiSensor sensor;
 String CREATE_DB_SQL = "CREATE TABLE data ( _id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, age INTEGER NOT NULL DEFAULT '0');";
 PVector magneticField, accelerometer;
-float light, proximity;
+float light, proximity, rotation_x, rotation_y, rotation_z;
 
 void setup()
 {
@@ -35,6 +35,10 @@ void draw() {
     + "x: " + nfp(magneticField.x, 1, 2) + "\n"
     + "y: " + nfp(magneticField.y, 1, 2) + "\n"
     + "z: " + nfp(magneticField.z, 1, 2) + "\n"
+    +"Gyroscope: \n"  
+    + "x: " + nfp(rotation_x, 1, 3) + "\n"
+    + "y: " + nfp(rotation_y, 1, 3) + "\n"
+    + "z: " + nfp(rotation_z, 1, 3) + "\n"
     + "Light Sensor : " + light + "\n"
     + "Proximity Sensor : " + proximity + "\n"
     , 20, 0, width, height);
@@ -45,6 +49,13 @@ void onAccelerometerEvent(float x, float y, float z, long time, int accuracy) {
 }
 void onMagneticFieldEvent(float x, float y, float z, long time, int accuracy) { // 2
   magneticField.set(x, y, z);
+}
+
+void onGyroscopeEvent(float x, float y, float z) {
+  //rotation.set(x, y, z);
+  rotation_x = x;
+  rotation_y = y;
+  rotation_z = z;
 }
 
 void onLightEvent(float v) { // 3
