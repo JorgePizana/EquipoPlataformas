@@ -16,7 +16,7 @@ void setup()
   sensor.list();
   accelerometer = new PVector();
   magneticField = new PVector();
-  orientation(LANDSCAPE); 
+  orientation(PORTRAIT); 
   textAlign(CENTER, CENTER);
   textSize(72);
   if ( db.connect() ){
@@ -24,6 +24,7 @@ void setup()
     if (!db.tableExists("data"))
         db.execute(CREATE_DB_SQL);
   }
+  frameRate(10);
 }
 
 void draw() {
@@ -43,7 +44,7 @@ void draw() {
     + "z: " + nfp(rotation_z, 1, 3) + "\n"
     + "Light Sensor : " + light + "\n"
     + "Proximity Sensor : " + proximity + "\n"
-    , 20, 0, width/2, height/2);
+    , width/2, height/2);
     println("Capturando datos");
   }else{
     println("No se ha capturado");
