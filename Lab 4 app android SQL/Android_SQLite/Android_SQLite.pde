@@ -6,6 +6,7 @@ KetaiSensor sensor;
 String CREATE_DB_SQL = "CREATE TABLE data ( _id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, age INTEGER NOT NULL DEFAULT '0');";
 PVector magneticField, accelerometer;
 float light, proximity, rotation_x, rotation_y, rotation_z;
+boolean capturando = false;
 
 void setup()
 {
@@ -27,7 +28,8 @@ void setup()
 
 void draw() {
   background(78, 93, 75);
-  text("Accelerometer :" + "\n"
+  if(capturando){
+    text("Accelerometer :" + "\n"
     + "x: " + nfp(accelerometer.x, 1, 2) + "\n"
     + "y: " + nfp(accelerometer.y, 1, 2) + "\n"
     + "z: " + nfp(accelerometer.z, 1, 2) + "\n"
@@ -41,7 +43,12 @@ void draw() {
     + "z: " + nfp(rotation_z, 1, 3) + "\n"
     + "Light Sensor : " + light + "\n"
     + "Proximity Sensor : " + proximity + "\n"
-    , 20, 0, width, height);
+    , 20, 0, width/2, height/2);
+    println("Capturando datos");
+  }else{
+    println("No se ha capturado");
+    text("No se han capturado datos \n\n Presiona la pantalla \n Para capturar", width/2, height/2);
+  }
 }
 
 void onAccelerometerEvent(float x, float y, float z, long time, int accuracy) {
@@ -58,14 +65,14 @@ void onGyroscopeEvent(float x, float y, float z) {
   rotation_z = z;
 }
 
-void onLightEvent(float v) { // 3
+void onLightEvent(float v) {
   light = v;
 }
 
-void onProximityEvent(float v) { // 4
+void onProximityEvent(float v) {
   proximity = v;
 }
-public void mousePressed() { // 5
+public void mousePressed() {
   if (sensor.isStarted())
     sensor.stop();
   else
