@@ -52,17 +52,44 @@ void draw() {
 }
 
 void onAccelerometerEvent(float x, float y, float z, long time, int accuracy) {
-  accelerometer.set(x, y, z);
+  if (db.connect() && capturando) {
+    accelerometer.set(x, y, z);
+    if (!db.execute(
+      "INSERT into data (`time`, `sen`,`x`,`y`,`z`) VALUES ('" + 
+      System.currentTimeMillis() +  "', '" + 1 + "', '" + x + "', '" + y + "', '" + z + "')"
+      )
+    )
+      println("Failed to record data!" ); 
+  }  
 }
-void onMagneticFieldEvent(float x, float y, float z, long time, int accuracy) { // 2
-  magneticField.set(x, y, z);
+
+void onMagneticFieldEvent(float x, float y, float z, long time, int accuracy) {
+  if (db.connect() && capturando) {
+    magneticField.set(x, y, z);
+    if (!db.execute(
+      "INSERT into data (`time`, `sen`,`x`,`y`,`z`) VALUES ('" + 
+      System.currentTimeMillis() +  "', '" + 2 + "', '" + x + "', '" + y + "', '" + z + "')"
+      )
+    )
+      println("Failed to record data!" ); 
+  } 
+  
 }
 
 void onGyroscopeEvent(float x, float y, float z) {
   //rotation.set(x, y, z);
-  rotation_x = x;
-  rotation_y = y;
-  rotation_z = z;
+  if (db.connect() && capturando) {
+    rotation_x = x;
+    rotation_y = y;
+    rotation_z = z;
+    if (!db.execute(
+      "INSERT into data (`time`, `sen`,`x`,`y`,`z`) VALUES ('" + 
+      System.currentTimeMillis() +  "', '" + 3 + "', '" + x + "', '" + y + "', '" + z + "')"
+      )
+    )
+      println("Failed to record data!" ); 
+  } 
+  
 }
 
 void onLightEvent(float v) {
@@ -72,10 +99,17 @@ void onLightEvent(float v) {
 void onProximityEvent(float v) {
   proximity = v;
 }
+
 public void mousePressed() {
   if (sensor.isStarted())
     sensor.stop();
   else
     sensor.start();
   println("KetaiSensor isStarted: " + sensor.isStarted());
+  
+  if(capturando){
+    capturando = false;
+  }else{
+    capturando = true;
+  }
 }
