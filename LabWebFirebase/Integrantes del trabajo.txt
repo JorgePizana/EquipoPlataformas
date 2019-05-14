@@ -1,0 +1,10 @@
+https://github.com/JorgePizana/EquipoPlataformas/tree/Lab-Web-Firebase
+
+***** Lab Web Firebase*****
+
+-Grupo: 6CC2
+-Alumnos: 
+	-José Francisco Loya Tena – 310996
+	-Jorge Luis Pizaña Martínez - 311049
+-Maestro: D.C. Fernando Martínez Reyes
+-Fecha de entrega: 14/05/2019
