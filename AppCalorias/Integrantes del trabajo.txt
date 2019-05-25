@@ -1,4 +1,4 @@
-https://github.com/JorgePizana/EquipoPlataformas/tree/AppCalorias
+https://github.com/JorgePizana/EquipoPlataformas/tree/AppCalorias/AppCalorias
 
 ***** Aplicación Calorias/corredores*****
 
