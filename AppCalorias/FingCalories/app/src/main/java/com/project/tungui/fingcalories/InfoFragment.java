@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class InfoFragment extends Fragment {
 
@@ -23,9 +26,9 @@ public class InfoFragment extends Fragment {
     private EditText ed_activo;
     private RadioButton rb_hombre, rb_mujer;
 
-    private TextView metabasal, mantener, perder, ganar;
-
     private Button button_calcular;
+
+    public static ArrayList<Perfil> perfiles = new ArrayList<>();
 
     @Nullable
     @Override
@@ -40,12 +43,6 @@ public class InfoFragment extends Fragment {
 
         rb_hombre = (RadioButton) view.findViewById(R.id.rb_hombre);
         rb_mujer = (RadioButton) view.findViewById(R.id.rb_mujer);
-
-        // TextViews
-        metabasal = (TextView) view.findViewById(R.id.tv_metabasal);
-        mantener = (TextView) view.findViewById(R.id.tv_mantener);
-        perder = (TextView) view.findViewById(R.id.tv_perder);
-        ganar = (TextView) view.findViewById(R.id.tv_ganar);
 
         button_calcular = (Button) view.findViewById(R.id.button_calcular);
         button_calcular.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +65,8 @@ public class InfoFragment extends Fragment {
         double altura = Double.parseDouble(ed_altura.getText().toString());
         int dias_activo = Integer.parseInt(ed_activo.getText().toString());
 
+        Perfil myPerfil = new Perfil(altura, peso, edad, dias_activo);
+
         double bmr = 0.0;
         double dailyCaloricIntake = 0.0;
 
@@ -75,14 +74,17 @@ public class InfoFragment extends Fragment {
 
             // Ecuacion de Mifflin-St.Jeor para mujeres
             bmr = (altura * 6.25) + (peso * 9.99) - (edad * 4.92) - 161;
+            myPerfil.setGenero("Mujer");
 
         } else if (rb_hombre.isChecked()) {
 
             // Ecuacion de Mifflin-St.Jeor para hombres
             bmr = (altura * 6.25) + (peso * 9.99) - (edad * 4.92) + 5;
+            myPerfil.setGenero("Hombre");
         }
 
-        metabasal.setText((int)bmr + " Calorías");
+
+        myPerfil.setMeta_basal((int)bmr);
 
 
         if (dias_activo == 0) {
@@ -101,8 +103,15 @@ public class InfoFragment extends Fragment {
             dailyCaloricIntake = bmr * 1.725;
         }
 
-        mantener.setText((int)dailyCaloricIntake + " Calorías");
-        perder.setText(((int)dailyCaloricIntake - 500) + " Calorías");
-        ganar.setText(((int)dailyCaloricIntake + 500) + " Calorías");
+
+        myPerfil.setMantener_cal((int)dailyCaloricIntake);
+
+        myPerfil.setPerder_peso_cal((int)dailyCaloricIntake - 500);
+
+        myPerfil.setGanar_peso_cal((int)dailyCaloricIntake + 500);
+
+        perfiles.add(myPerfil);
+
+        Toast.makeText(this.getContext(), "Perfil Guardado", Toast.LENGTH_SHORT).show();
     }
 }

@@ -7,9 +7,12 @@
     <string name="txt_activo">Días activo p/semana</string>
     <string name="txt_gen1">Hombre</string>
     <string name="txt_gen2">Mujer</string>
-    <string name="button_calcular">Calcular</string>
+    <string name="button_calcular">Guardar Perfil</string>
+    <string name="txt_imc">Indice de Masa Corporal:</string>
     <string name="txt_metabasal">Metabolismo Basal:</string>
     <string name="txt_mantener">Mantener tu peso:</string>
     <string name="txt_perder">Perder peso:</string>
     <string name="txt_ganar">Ganar peso:</string>
+    <string name="txt_seleccion">Selecciona tu Perfil</string>
+
 </resources>
