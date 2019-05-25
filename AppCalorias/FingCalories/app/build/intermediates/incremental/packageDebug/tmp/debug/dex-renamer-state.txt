@@ -1,4 +1,4 @@
-#Fri May 24 19:25:27 MDT 2019
+#Sat May 25 11:10:46 MDT 2019
 base.0=/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

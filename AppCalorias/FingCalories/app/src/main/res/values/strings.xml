@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Fing Calories</string>
     <string name="txt_pasos">Pasos</string>
+    <string name="txt_edad">Edad:</string>
+    <string name="txt_peso">Peso:</string>
+    <string name="txt_altura">Altura: (centimetros)</string>
+    <string name="txt_activo">Días activo p/semana</string>
+    <string name="txt_gen1">Hombre</string>
+    <string name="txt_gen2">Mujer</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="txt_metabasal">Metabolismo Basal:</string>
+    <string name="txt_mantener">Mantener tu peso:</string>
+    <string name="txt_perder">Perder peso:</string>
+    <string name="txt_ganar">Ganar peso:</string>
 </resources>
