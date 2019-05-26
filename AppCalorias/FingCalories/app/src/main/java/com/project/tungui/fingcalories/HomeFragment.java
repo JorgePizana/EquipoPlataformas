@@ -1,12 +1,14 @@
 package com.project.tungui.fingcalories;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,6 +16,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,13 +40,19 @@ public class HomeFragment extends Fragment implements SensorEventListener {
 
     boolean running = false;
 
-    public int meta_pasos = 500;
+    public int meta_pasos = 5000;
+
+    public static double calorias_perdidas;
+
+    private Button reset_button;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        //reset_button = (Button) view.findViewById(R.id.button_reset);
 
         tv_steps = (TextView) view.findViewById(R.id.tv_steps);
 
@@ -94,6 +103,8 @@ public class HomeFragment extends Fragment implements SensorEventListener {
         if (running) {
             tv_steps.setText(String.valueOf(event.values[0]));
             evsteps = event.values[0];
+
+            calorias_perdidas = event.values[0] / 20;
         }
     }
 
@@ -125,6 +136,38 @@ public class HomeFragment extends Fragment implements SensorEventListener {
             @Override
             public void onSeriesItemAnimationProgress(float percentComplete, float currentPosition) {
                 textToGo.setText(String.format("%d Pasos para la meta", (int) (seriesItem.getMaxValue() - currentPosition)));
+
+            }
+
+            @Override
+            public void onSeriesItemDisplayProgress(float percentComplete) {
+
+            }
+        });
+
+        final TextView distance = (TextView) view.findViewById(R.id.tv_distancia);
+        seriesItem.addArcSeriesItemListener(new SeriesItem.SeriesItemListener() {
+            @Override
+            public void onSeriesItemAnimationProgress(float percentComplete, float currentPosition) {
+
+                double distancia_recorrida = (currentPosition * 0.7) / 1000;
+                distance.setText(String.format("%.03f", distancia_recorrida) + " km recorridos");
+
+            }
+
+            @Override
+            public void onSeriesItemDisplayProgress(float percentComplete) {
+
+            }
+        });
+
+        final TextView calories = (TextView) view.findViewById(R.id.tv_calories);
+        seriesItem.addArcSeriesItemListener(new SeriesItem.SeriesItemListener() {
+            @Override
+            public void onSeriesItemAnimationProgress(float percentComplete, float currentPosition) {
+
+                double distancia_recorrida = (currentPosition * 0.7) / 1000;
+                calories.setText(String.format("%.03f", calorias_perdidas) + " cal quemadas");
 
             }
 

@@ -1,18 +1,35 @@
 package com.project.tungui.fingcalories;
 
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.NotificationCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.google.android.gms.location.ActivityRecognition;
+import com.google.android.gms.location.ActivityTransition;
+import com.google.android.gms.location.ActivityTransitionRequest;
+import com.google.android.gms.location.DetectedActivity;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+
 import java.util.ArrayList;
+import java.util.List;
+
+import static android.content.Context.NOTIFICATION_SERVICE;
 
 public class CaloriesFragment extends Fragment implements AdapterView.OnItemSelectedListener {
 
@@ -22,6 +39,8 @@ public class CaloriesFragment extends Fragment implements AdapterView.OnItemSele
 
     ArrayList<String> datos_perfiles = new ArrayList<>();
 
+    private Button button_noti;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -29,6 +48,8 @@ public class CaloriesFragment extends Fragment implements AdapterView.OnItemSele
         View view = inflater.inflate(R.layout.fragment_calories, container, false);
 
         spinner_perfiles = (Spinner) view.findViewById(R.id.spinner_perfil);
+
+        button_noti = (Button) view.findViewById(R.id.button_notification);
 
         // TextViews
         tv_imc = (TextView) view.findViewById(R.id.tv_imc);
@@ -40,13 +61,71 @@ public class CaloriesFragment extends Fragment implements AdapterView.OnItemSele
 
         for (Perfil datos : InfoFragment.perfiles) {
 
-            datos_perfiles.add(datos.getGenero() + "  -   Edad: " + datos.getEdad() + " / Peso: " + datos.getPeso() + " / Altura: " + datos.getAltura());
+            datos_perfiles.add(datos.getGenero() + "   -   Edad: " + datos.getEdad() + " / Peso: " + datos.getPeso() + " / Altura: " + datos.getAltura());
         }
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getContext(), R.layout.spinner_item_estilo, datos_perfiles);
         spinner_perfiles.setAdapter(adapter);
 
         spinner_perfiles.setOnItemSelectedListener(this);
+
+       /* button_noti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(getActivity(), NotificationActivity.class);
+
+                PendingIntent pi = PendingIntent.getActivity(getActivity(), 0, i, 0);
+
+                Notification no = new NotificationCompat.Builder(getActivity())
+                        .setSmallIcon(android.R.drawable.stat_notify_missed_call)
+                        .setContentTitle("Hola Guapo")
+                        .setContentText("Probando")
+                        .setAutoCancel(true)
+                        .setContentIntent(pi).build();
+
+                NotificationManager nm = (NotificationManager) getActivity().getSystemService(getActivity().NOTIFICATION_SERVICE);
+                nm.notify(2, no);
+
+
+            }
+        });*/
+
+
+        final Intent i = new Intent(getActivity(), NotificationActivity.class);
+
+        PendingIntent pi = PendingIntent.getActivity(getActivity(), 0, i, 0);
+
+        List<ActivityTransition> transitions = new ArrayList<>();
+
+        transitions.add(
+                new ActivityTransition.Builder()
+                        .setActivityType(DetectedActivity.WALKING)
+                        .setActivityTransition(ActivityTransition.ACTIVITY_TRANSITION_EXIT)
+                        .build());
+
+        ActivityTransitionRequest request = new ActivityTransitionRequest(transitions);
+
+        Task<Void> task = ActivityRecognition.getClient(getContext())
+                .requestActivityTransitionUpdates(request, pi);
+
+        task.addOnSuccessListener(
+                new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void result) {
+                        // Handle success
+                    }
+                }
+        );
+
+        task.addOnFailureListener(
+                new OnFailureListener() {
+                    @Override
+                    public void onFailure(Exception e) {
+                        // Handle error
+                    }
+                }
+        );
 
         return view;
     }

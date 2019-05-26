@@ -14,5 +14,6 @@
     <string name="txt_perder">Perder peso:</string>
     <string name="txt_ganar">Ganar peso:</string>
     <string name="txt_seleccion">Selecciona tu Perfil</string>
+    <string name="txt_noti">Notificaciones</string>
 
 </resources>
