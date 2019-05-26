@@ -1,65 +1,66 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/11a710780b21e3b6b06b8b23ea1482f4/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/c3808e94c881897fd18774da40bd3090/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/afc25f6d06ba39437233c521e741e3de/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/01d3eef4f1fbc1f56b60f70f06d3e5f4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-location:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.0.aar/bd49f20f92a450a02b36d28729628ecb/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/223ad23a385713c3c9e4a39df615cbc9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4fd2f91dbf50b3cba15468c9eea300be/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/c216eb9ed5ff503c5ea26e10e4b66ffa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/3cc0a8cbf382d85d11f5d33c6a4929fe/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7e10de8ee88806de36464d2fa9adbb73/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a65c7b8aee44cfd0adbb28f73ec4fdad/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d45848e65049054718214cd611976b69/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/211408b72323c735e71fc173914f2e3c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/94289641c1e36a694b90bec09d4ee3d2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6df4e82158317360ed4f95ce7349f31/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f32f25f3e24deccbc583bb5a1cd360e4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a605c87596e586c0ca745ed02acabfd4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6bdf04c890171f6180de98eb66296ab4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/66404def8848271e4c4851e1ec4321ae/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d3ce1e599f90c12ead707df453475268/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d94ff4fc5af44fb97095741bc6a1cbd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ab8f573c05784815373de2b94f234ed4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8c860e4c88f2ee770f6142a898d9fbb5/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/561e813dacce1c591bd2d27eac4dd9a0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f187ea7c83adde2d3d0945faddac6e59/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e90738a0907a30165c31e9ac238e0bf9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f94e66ed0ab1d8b82dbb583c23889a80/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c46ee37e873d0691937837f0e070ead1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/940089d9b60a160fb6384f1666bd3970/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4d1443d6364a2851125841a620fd029b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/052ab4ed3f315d4eb1846f489c4f8401/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e54c65ea42eceab1b1f1391c4afef01b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8bdf64f11e9b8dbf36b7d92db20147e5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/2b34449035ef5360c4e79d601dece863/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/084729578b45269e4b79d571cb47efd9/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/a9df0ac1569826bc04d9208b3461d865/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/e9847d106ccc7c6eaaf8fc4ddb0ba083/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6ce4813e809f2fc1bbeb43f9e1975fdc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/ef116d78a01ca30d2ba47648a1e72b4b/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8d610ca5f313f9d348dbf8acba205cc8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/aad12b60aa85ee95ea8ab683723dafc4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/a557191a3c9d42f810e647cb9bfa4957/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f4d9b9b11cceabe3f7a71384045bec50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/390a7bdfb56c7647f63bfa0495975612/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ee2e88aa3d98f52add29f443b81f5964/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/889fa3a0aff3ef656645ca4fcfd95ffc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/2f60743e4174963f041576d0e73a325e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/8f4eda5ddc38371b53ddfbb6a50bb4f6/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b49ae87946073aa4870b4d4452d162dc/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/27c343b80036232bd3319c9571357b05/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0ecefb6bd69aab5c7e5183ec6ff0cfbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/100a856371a1c27eae1189462a203c58/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/57c041df0077ca9dd90f7963e8f1a0bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/db6978c4164618f4314c29b1c72368b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/28ecde9ac3c0990137e828593595a682/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/224a2af5018cb92c1adba6b5b74c0811/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/255a84fda97774ca729cd5fc78713b60/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5a587c15cf3a92e22a2851d20f6ce32e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/78536b9d603c561ea2835b9f093dcee2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d61c3fe09dba93f87058ccebe7f9fc5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/952eaad349601fb2645cf34f48dbecc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1d98bada790d00355ae0037598925808/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12d909507ea4c8d4587358a93407a958/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c28e9f1ad165d64ca32d88f0b9e16f14/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f790ba29dc465367bf0682f8c645bcda/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1ecbb059e04e5c7801e38545b0670531/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f7f0a5a1a768084bc996149f926e74d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc608347dbb0a7d95d8b2c172f208a62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1099bbf683f9083013f01557f269b36a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b104317572d482be3d028bee79510fa1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e513a405f934f1a12e171060bcc0dd1e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/236925a1bef04223c7f7a95525a33564/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/24b15e9446729953078b7a290d8ac125/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
-		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
-		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:11-69
@@ -68,39 +69,35 @@ ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidM
 	android:name
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:5:22-91
 application
-ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:7:5-22:19
-MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/11a710780b21e3b6b06b8b23ea1482f4/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/11a710780b21e3b6b06b8b23ea1482f4/AndroidManifest.xml:22:5-20
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/c3808e94c881897fd18774da40bd3090/AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/c3808e94c881897fd18774da40bd3090/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/01d3eef4f1fbc1f56b60f70f06d3e5f4/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/01d3eef4f1fbc1f56b60f70f06d3e5f4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.0.aar/bd49f20f92a450a02b36d28729628ecb/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.0.aar/bd49f20f92a450a02b36d28729628ecb/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/3cc0a8cbf382d85d11f5d33c6a4929fe/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/3cc0a8cbf382d85d11f5d33c6a4929fe/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8c860e4c88f2ee770f6142a898d9fbb5/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8c860e4c88f2ee770f6142a898d9fbb5/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/2b34449035ef5360c4e79d601dece863/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/2b34449035ef5360c4e79d601dece863/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/084729578b45269e4b79d571cb47efd9/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/084729578b45269e4b79d571cb47efd9/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/a9df0ac1569826bc04d9208b3461d865/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/a9df0ac1569826bc04d9208b3461d865/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/e9847d106ccc7c6eaaf8fc4ddb0ba083/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/e9847d106ccc7c6eaaf8fc4ddb0ba083/AndroidManifest.xml:5:5-6:19
+ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6ce4813e809f2fc1bbeb43f9e1975fdc/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6ce4813e809f2fc1bbeb43f9e1975fdc/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/ef116d78a01ca30d2ba47648a1e72b4b/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/ef116d78a01ca30d2ba47648a1e72b4b/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8d610ca5f313f9d348dbf8acba205cc8/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8d610ca5f313f9d348dbf8acba205cc8/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/aad12b60aa85ee95ea8ab683723dafc4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/aad12b60aa85ee95ea8ab683723dafc4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/2f60743e4174963f041576d0e73a325e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/2f60743e4174963f041576d0e73a325e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/27c343b80036232bd3319c9571357b05/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/27c343b80036232bd3319c9571357b05/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1d98bada790d00355ae0037598925808/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1d98bada790d00355ae0037598925808/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -131,90 +128,106 @@ activity#com.project.tungui.fingcalories.NotificationActivity
 ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:21:9-67
 	android:name
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:21:19-55
+service#com.project.tungui.fingcalories.ActivityIntentService
+ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:23:13-50
 uses-sdk
 INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/11a710780b21e3b6b06b8b23ea1482f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/11a710780b21e3b6b06b8b23ea1482f4/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/c3808e94c881897fd18774da40bd3090/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/c3808e94c881897fd18774da40bd3090/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/afc25f6d06ba39437233c521e741e3de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/afc25f6d06ba39437233c521e741e3de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/01d3eef4f1fbc1f56b60f70f06d3e5f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/01d3eef4f1fbc1f56b60f70f06d3e5f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-location:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.0.aar/bd49f20f92a450a02b36d28729628ecb/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.0.aar/bd49f20f92a450a02b36d28729628ecb/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/223ad23a385713c3c9e4a39df615cbc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/223ad23a385713c3c9e4a39df615cbc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4fd2f91dbf50b3cba15468c9eea300be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4fd2f91dbf50b3cba15468c9eea300be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/c216eb9ed5ff503c5ea26e10e4b66ffa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/c216eb9ed5ff503c5ea26e10e4b66ffa/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/3cc0a8cbf382d85d11f5d33c6a4929fe/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/3cc0a8cbf382d85d11f5d33c6a4929fe/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7e10de8ee88806de36464d2fa9adbb73/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7e10de8ee88806de36464d2fa9adbb73/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a65c7b8aee44cfd0adbb28f73ec4fdad/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a65c7b8aee44cfd0adbb28f73ec4fdad/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d45848e65049054718214cd611976b69/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d45848e65049054718214cd611976b69/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/211408b72323c735e71fc173914f2e3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/211408b72323c735e71fc173914f2e3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/94289641c1e36a694b90bec09d4ee3d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/94289641c1e36a694b90bec09d4ee3d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6df4e82158317360ed4f95ce7349f31/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6df4e82158317360ed4f95ce7349f31/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f32f25f3e24deccbc583bb5a1cd360e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f32f25f3e24deccbc583bb5a1cd360e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a605c87596e586c0ca745ed02acabfd4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a605c87596e586c0ca745ed02acabfd4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6bdf04c890171f6180de98eb66296ab4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6bdf04c890171f6180de98eb66296ab4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/66404def8848271e4c4851e1ec4321ae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/66404def8848271e4c4851e1ec4321ae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d3ce1e599f90c12ead707df453475268/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d3ce1e599f90c12ead707df453475268/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d94ff4fc5af44fb97095741bc6a1cbd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d94ff4fc5af44fb97095741bc6a1cbd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ab8f573c05784815373de2b94f234ed4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ab8f573c05784815373de2b94f234ed4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27e473c4bbb335c64d20fd670d4930a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8c860e4c88f2ee770f6142a898d9fbb5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8c860e4c88f2ee770f6142a898d9fbb5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/561e813dacce1c591bd2d27eac4dd9a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/561e813dacce1c591bd2d27eac4dd9a0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f187ea7c83adde2d3d0945faddac6e59/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f187ea7c83adde2d3d0945faddac6e59/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e90738a0907a30165c31e9ac238e0bf9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e90738a0907a30165c31e9ac238e0bf9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f94e66ed0ab1d8b82dbb583c23889a80/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f94e66ed0ab1d8b82dbb583c23889a80/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c46ee37e873d0691937837f0e070ead1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c46ee37e873d0691937837f0e070ead1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/940089d9b60a160fb6384f1666bd3970/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/940089d9b60a160fb6384f1666bd3970/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4d1443d6364a2851125841a620fd029b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4d1443d6364a2851125841a620fd029b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/052ab4ed3f315d4eb1846f489c4f8401/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/052ab4ed3f315d4eb1846f489c4f8401/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e54c65ea42eceab1b1f1391c4afef01b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/e54c65ea42eceab1b1f1391c4afef01b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8bdf64f11e9b8dbf36b7d92db20147e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8bdf64f11e9b8dbf36b7d92db20147e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6ce4813e809f2fc1bbeb43f9e1975fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6ce4813e809f2fc1bbeb43f9e1975fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/ef116d78a01ca30d2ba47648a1e72b4b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /home/tungui/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v1.2.aar/ef116d78a01ca30d2ba47648a1e72b4b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8d610ca5f313f9d348dbf8acba205cc8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/tungui/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8d610ca5f313f9d348dbf8acba205cc8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/aad12b60aa85ee95ea8ab683723dafc4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/aad12b60aa85ee95ea8ab683723dafc4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/a557191a3c9d42f810e647cb9bfa4957/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/a557191a3c9d42f810e647cb9bfa4957/AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f4d9b9b11cceabe3f7a71384045bec50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f4d9b9b11cceabe3f7a71384045bec50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/390a7bdfb56c7647f63bfa0495975612/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/390a7bdfb56c7647f63bfa0495975612/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ee2e88aa3d98f52add29f443b81f5964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ee2e88aa3d98f52add29f443b81f5964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/889fa3a0aff3ef656645ca4fcfd95ffc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/889fa3a0aff3ef656645ca4fcfd95ffc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/2f60743e4174963f041576d0e73a325e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/2f60743e4174963f041576d0e73a325e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/8f4eda5ddc38371b53ddfbb6a50bb4f6/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/8f4eda5ddc38371b53ddfbb6a50bb4f6/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b49ae87946073aa4870b4d4452d162dc/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b49ae87946073aa4870b4d4452d162dc/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/27c343b80036232bd3319c9571357b05/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/27c343b80036232bd3319c9571357b05/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0ecefb6bd69aab5c7e5183ec6ff0cfbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0ecefb6bd69aab5c7e5183ec6ff0cfbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/100a856371a1c27eae1189462a203c58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/100a856371a1c27eae1189462a203c58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/57c041df0077ca9dd90f7963e8f1a0bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/57c041df0077ca9dd90f7963e8f1a0bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/db6978c4164618f4314c29b1c72368b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/db6978c4164618f4314c29b1c72368b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/28ecde9ac3c0990137e828593595a682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/28ecde9ac3c0990137e828593595a682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/224a2af5018cb92c1adba6b5b74c0811/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/224a2af5018cb92c1adba6b5b74c0811/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/255a84fda97774ca729cd5fc78713b60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/255a84fda97774ca729cd5fc78713b60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5a587c15cf3a92e22a2851d20f6ce32e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5a587c15cf3a92e22a2851d20f6ce32e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/78536b9d603c561ea2835b9f093dcee2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/78536b9d603c561ea2835b9f093dcee2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d61c3fe09dba93f87058ccebe7f9fc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0d61c3fe09dba93f87058ccebe7f9fc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/952eaad349601fb2645cf34f48dbecc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/952eaad349601fb2645cf34f48dbecc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1d98bada790d00355ae0037598925808/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1d98bada790d00355ae0037598925808/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12d909507ea4c8d4587358a93407a958/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12d909507ea4c8d4587358a93407a958/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c28e9f1ad165d64ca32d88f0b9e16f14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c28e9f1ad165d64ca32d88f0b9e16f14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f790ba29dc465367bf0682f8c645bcda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f790ba29dc465367bf0682f8c645bcda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1ecbb059e04e5c7801e38545b0670531/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/1ecbb059e04e5c7801e38545b0670531/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f7f0a5a1a768084bc996149f926e74d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f7f0a5a1a768084bc996149f926e74d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc608347dbb0a7d95d8b2c172f208a62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc608347dbb0a7d95d8b2c172f208a62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1099bbf683f9083013f01557f269b36a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1099bbf683f9083013f01557f269b36a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b104317572d482be3d028bee79510fa1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b104317572d482be3d028bee79510fa1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e513a405f934f1a12e171060bcc0dd1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e513a405f934f1a12e171060bcc0dd1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/236925a1bef04223c7f7a95525a33564/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/236925a1bef04223c7f7a95525a33564/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/24b15e9446729953078b7a290d8ac125/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/24b15e9446729953078b7a290d8ac125/AndroidManifest.xml:20:5-44
 INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
@@ -224,30 +237,38 @@ INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/Andro
 		ADDED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/64a03f4a75a627bea25cb72c462088b4/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/71142bead9e1db7178637d7525b88cce/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/8f4eda5ddc38371b53ddfbb6a50bb4f6/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/8f4eda5ddc38371b53ddfbb6a50bb4f6/AndroidManifest.xml:8:22-64
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/3774df813e71abfae147608e06fb4f6a/AndroidManifest.xml:10:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/dce3e29d1ba03e25789e2ab5f02df53d/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tungui/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6aed1a6d4e89723bacad5abf042f1ccb/AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/79fbba33e9cd927e63c82cb38d263212/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/1904e9add7c76e3d21b72e077376109b/AndroidManifest.xml:27:13-51
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/tungui/AndroidStudioProjects/FingCalories/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+		ADDED from [com.android.support:support-v4:26.1.0] /home/tungui/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/baded4b750db03851dcdfdde4ebc99d7/AndroidManifest.xml:27:13-51

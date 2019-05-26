@@ -864,6 +864,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen layout_padding
 dimen mtrl_bottomappbar_fabOffsetEndMode
 dimen mtrl_bottomappbar_fab_cradle_margin
 dimen mtrl_bottomappbar_fab_cradle_rounded_corner_radius
@@ -927,6 +928,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen textview_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1104,7 +1106,9 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activities_listview
 id activity_chooser_view_content
+id activity_type
 id add
 id adjust_height
 id adjust_width
@@ -1131,6 +1135,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confidence_percentage
 id container
 id content
 id contentPanel
@@ -1168,6 +1173,7 @@ id filled
 id fixed
 id forever
 id fragment_container
+id get_activity
 id ghost_view
 id gone
 id group_divider
@@ -1280,7 +1286,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView2
 id textView3
 id textView5
 id textView7
@@ -1390,6 +1395,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout detected_activity
 layout fragment_calories
 layout fragment_home
 layout fragment_info
@@ -1460,6 +1466,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string bicycle
 string bottom_sheet_behavior
 string button_calcular
 string character_counter_content_description
@@ -1482,8 +1489,16 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
+string foot
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
@@ -1491,8 +1506,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string percentage
+string project_id
+string running
 string search_menu_title
 string status_bar_notification_info_overflow
+string still
+string tilting
+string track
 string txt_activo
 string txt_altura
 string txt_edad
@@ -1507,6 +1528,9 @@ string txt_pasos
 string txt_perder
 string txt_peso
 string txt_seleccion
+string unknown_activity
+string vehicle
+string walking
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

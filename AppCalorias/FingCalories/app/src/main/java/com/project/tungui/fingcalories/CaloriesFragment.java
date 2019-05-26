@@ -3,6 +3,8 @@ package com.project.tungui.fingcalories;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,8 +21,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.google.android.gms.location.ActivityRecognition;
+import com.google.android.gms.location.ActivityRecognitionClient;
 import com.google.android.gms.location.ActivityTransition;
 import com.google.android.gms.location.ActivityTransitionRequest;
+import com.google.android.gms.location.ActivityTransitionResult;
 import com.google.android.gms.location.DetectedActivity;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -69,63 +73,15 @@ public class CaloriesFragment extends Fragment implements AdapterView.OnItemSele
 
         spinner_perfiles.setOnItemSelectedListener(this);
 
-       /* button_noti.setOnClickListener(new View.OnClickListener() {
+        button_noti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent i = new Intent(getActivity(), NotificationActivity.class);
-
-                PendingIntent pi = PendingIntent.getActivity(getActivity(), 0, i, 0);
-
-                Notification no = new NotificationCompat.Builder(getActivity())
-                        .setSmallIcon(android.R.drawable.stat_notify_missed_call)
-                        .setContentTitle("Hola Guapo")
-                        .setContentText("Probando")
-                        .setAutoCancel(true)
-                        .setContentIntent(pi).build();
-
-                NotificationManager nm = (NotificationManager) getActivity().getSystemService(getActivity().NOTIFICATION_SERVICE);
-                nm.notify(2, no);
-
+                startActivity(i);
 
             }
-        });*/
-
-
-        final Intent i = new Intent(getActivity(), NotificationActivity.class);
-
-        PendingIntent pi = PendingIntent.getActivity(getActivity(), 0, i, 0);
-
-        List<ActivityTransition> transitions = new ArrayList<>();
-
-        transitions.add(
-                new ActivityTransition.Builder()
-                        .setActivityType(DetectedActivity.WALKING)
-                        .setActivityTransition(ActivityTransition.ACTIVITY_TRANSITION_EXIT)
-                        .build());
-
-        ActivityTransitionRequest request = new ActivityTransitionRequest(transitions);
-
-        Task<Void> task = ActivityRecognition.getClient(getContext())
-                .requestActivityTransitionUpdates(request, pi);
-
-        task.addOnSuccessListener(
-                new OnSuccessListener<Void>() {
-                    @Override
-                    public void onSuccess(Void result) {
-                        // Handle success
-                    }
-                }
-        );
-
-        task.addOnFailureListener(
-                new OnFailureListener() {
-                    @Override
-                    public void onFailure(Exception e) {
-                        // Handle error
-                    }
-                }
-        );
+        });
 
         return view;
     }
