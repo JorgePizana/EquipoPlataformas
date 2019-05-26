@@ -105,6 +105,8 @@ public class HomeFragment extends Fragment implements SensorEventListener {
             evsteps = event.values[0];
 
             calorias_perdidas = event.values[0] / 20;
+
+
         }
     }
 
