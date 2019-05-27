@@ -25,8 +25,7 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number"
-            android:text="21" />
+            android:inputType="number" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,8 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number"
-                android:text="70" />
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/ed_altura"
@@ -73,8 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number"
-                android:text="178" />
+                android:inputType="number" />
         </LinearLayout>
 
         <LinearLayout
@@ -105,8 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number"
-                android:text="3" />
+                android:inputType="number" />
 
             <RadioGroup
                 android:layout_width="match_parent"

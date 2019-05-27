@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment implements SensorEventListener {
 
     boolean running = false;
 
-    public int meta_pasos = 5000;
+    public int meta_pasos = 7500;
 
     public static double calorias_perdidas;
 
@@ -106,7 +106,6 @@ public class HomeFragment extends Fragment implements SensorEventListener {
 
             calorias_perdidas = event.values[0] / 20;
 
-
         }
     }
 
@@ -125,7 +124,7 @@ public class HomeFragment extends Fragment implements SensorEventListener {
     }
 
     private void createDataSeries1() {
-        final SeriesItem seriesItem = new SeriesItem.Builder(Color.parseColor("#FFFF8800"))
+        final SeriesItem seriesItem = new SeriesItem.Builder(Color.parseColor("#ffc107"))
                 .setRange(0, meta_pasos, 0)
                 .setInitialVisibility(false)
                 .build();

@@ -19,10 +19,11 @@ public class NotificationActivity extends AppCompatActivity implements SharedPre
 
     private Context mContext;
     public static final String DETECTED_ACTIVITY = ".DETECTED_ACTIVITY";
-//Define an ActivityRecognitionClient//
 
+    // Define an ActivityRecognitionClient
     private ActivityRecognitionClient mActivityRecognitionClient;
     private ActivitiesAdapter mAdapter;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,18 +31,19 @@ public class NotificationActivity extends AppCompatActivity implements SharedPre
 
         mContext = this;
 
-//Retrieve the ListView where we’ll display our activity data//
+        // Retrieve the ListView where we’ll display our activity data
         ListView detectedActivitiesListView = (ListView) findViewById(R.id.activities_listview);
 
         ArrayList<DetectedActivity> detectedActivities = ActivityIntentService.detectedActivitiesFromJson(
                 PreferenceManager.getDefaultSharedPreferences(this).getString(
                         DETECTED_ACTIVITY, ""));
 
-//Bind the adapter to the ListView//
+        // Bind the adapter to the ListView
         mAdapter = new ActivitiesAdapter(this, detectedActivities);
         detectedActivitiesListView.setAdapter(mAdapter);
         mActivityRecognitionClient = new ActivityRecognitionClient(this);
     }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -49,14 +51,17 @@ public class NotificationActivity extends AppCompatActivity implements SharedPre
                 .registerOnSharedPreferenceChangeListener(this);
         updateDetectedActivitiesList();
     }
+
     @Override
     protected void onPause() {
         PreferenceManager.getDefaultSharedPreferences(this)
                 .unregisterOnSharedPreferenceChangeListener(this);
         super.onPause();
     }
+
     public void requestUpdatesHandler(View view) {
-//Set the activity detection interval. I’m using 3 seconds//
+
+        // Ajustar el intervalo de deteccion de la actividad. En este caso son 3 seg
         Task<Void> task = mActivityRecognitionClient.requestActivityUpdates(
                 3000,
                 getActivityDetectionPendingIntent());
@@ -67,21 +72,26 @@ public class NotificationActivity extends AppCompatActivity implements SharedPre
             }
         });
     }
-    //Get a PendingIntent//
+
+    // Get a PendingIntent
     private PendingIntent getActivityDetectionPendingIntent() {
-//Send the activity data to our DetectedActivitiesIntentService class//
+
+        // Send the activity data to our DetectedActivitiesIntentService class
         Intent intent = new Intent(this, ActivityIntentService.class);
         return PendingIntent.getService(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
     }
-    //Process the list of activities//
+
+    // Process the list of activities
     protected void updateDetectedActivitiesList() {
+
         ArrayList<DetectedActivity> detectedActivities = ActivityIntentService.detectedActivitiesFromJson(
                 PreferenceManager.getDefaultSharedPreferences(mContext)
                         .getString(DETECTED_ACTIVITY, ""));
 
         mAdapter.updateActivities(detectedActivities);
     }
+
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String s) {
         if (s.equals(DETECTED_ACTIVITY)) {

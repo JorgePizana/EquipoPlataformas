@@ -14,9 +14,9 @@
     <string name="txt_perder">Perder peso:</string>
     <string name="txt_ganar">Ganar peso:</string>
     <string name="txt_seleccion">Selecciona tu Perfil</string>
-    <string name="txt_noti">Notificaciones</string>
+    <string name="txt_noti">Deteccion de Actividades</string>
 
-    <string name="track">Track Activity</string>
+    <string name="track">Seguimiento de Actividad</string>
     <string name="percentage">%1$d%%</string>
     <string name="bicycle">On a bicycle</string>
     <string name="foot">On foot</string>

@@ -116,12 +116,12 @@
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -160,12 +160,12 @@
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/64f069507c2bbf9b44703f2f0306d13c/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home_black_24dp.png.flat",
         "source": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/generated/res/pngs/debug/drawable-mdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -264,12 +264,12 @@
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/res/layout/notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/693ea4185a15937be9cf2e2e03d88697/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/color_mtrl_text_btn_text_color_selector.xml.flat",
@@ -1306,6 +1306,10 @@
     {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "/home/tungui/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fdd179c94976f6ba30b442467af5d600/res/color-v21/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-v24_fondo_app.png.flat",
+        "source": "/home/tungui/AndroidStudioProjects/FingCalories/app/src/main/res/drawable-v24/fondo_app.png"
     },
     {
         "merged": "/home/tungui/AndroidStudioProjects/FingCalories/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",

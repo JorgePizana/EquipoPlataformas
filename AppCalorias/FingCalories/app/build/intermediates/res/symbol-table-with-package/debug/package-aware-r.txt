@@ -1048,6 +1048,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fondo_app
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_favorite_black_24dp
@@ -1185,6 +1186,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id img_fondo
 id info
 id invisible
 id italic
